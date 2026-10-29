@@ -12,3 +12,9 @@ Built with the [Academic Pages](https://github.com/academicpages/academicpages.g
 * `_pages/about.md` — the home page: biography, research interests, education, research experience, publications, skills, honors and contact details.
 * `_pages/cv.md` — CV generated from the same information plus the publications collection.
 * `_pages/publications.html` and `_publications/` — the publications page and one Markdown file per publication.
+
+## Deployment
+
+The site is built by `.github/workflows/jekyll.yml` on every push to `master`.
+To publish it, enable GitHub Pages for this repository (Settings -> Pages -> Source: GitHub Actions);
+the workflow then deploys the site to `https://spadardtubmanhc385106.github.io/LJT-Homepage/`.
